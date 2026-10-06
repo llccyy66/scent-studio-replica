@@ -152,12 +152,12 @@
   .section-heading h2 { font-size: 20px; }
   .section-caption { font-size: 10px; }
   .notes-section { padding-top: 13px; padding-bottom: 23px; }
-  .fragrance-notes { margin-top: 19px; grid-template-columns: 1.1fr 1fr .9fr; }
+  .fragrance-notes { margin-top: 19px; grid-template-columns: 1.2fr 1fr .9fr; }
   .note-column { padding: 0 14px; }
   .note-column h3 { font-size: 18px; }
   .note-column p { font-size: 12px; margin: 6px 0 9px; }
-  .note-tags { gap: 6px; flex-wrap: wrap; }
-  .note-tags span { padding: 3px 9px; font-size: 11px; }
+  .note-tags { gap: 4px; flex-wrap: nowrap; }
+  .note-tags span { padding: 3px 6px; font-size: 10px; }
   .portrait-section { padding-top: 12px; }
   .scent-portrait { min-height: 178px; grid-template-columns: 1.05fr 1fr; }
   .scent-radar { width: 115%; margin-left: -10%; }
