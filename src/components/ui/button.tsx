@@ -9,6 +9,10 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        perfumeIcon: "perfume-button perfume-icon-button",
+        perfumeQuiet: "perfume-button perfume-quiet-button",
+        perfumeOutline: "perfume-button perfume-outline-button",
+        perfumeBuy: "perfume-button perfume-buy-button",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
